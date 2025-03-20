@@ -64,7 +64,7 @@ sleep 0.4
 cont="Please Analyze $IP , give information like open ports , service used , os detection , vulnerabilities , full network scan , issues faced by customers or clients , recent frauds , reviews , conclusion and trust rating from various sites like scamadvisor ipquality check etc trust scores from at least 7 sources, Display the information in well stuctured format use whatever display technique you can just ensure user can properly differentiate and understand , Please ensure the output is not so much huge just dislay the relevent information only , if the input is not a domain or ip just replied please enter a valid domain or ip to work , nothing else"
 ( curl -s -X POST "https://openrouter.ai/api/v1/chat/completions" \
      -H "Content-Type: application/json" \
-     -H "Authorization: Bearer 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" \
+     -H "Authorization: Bearer $(cat api)" \
      -d "{
            \"model\": \"meta-llama/llama-3.1-8b-instruct:free\",
            \"messages\": [
