@@ -1,5 +1,5 @@
 
-#  Khusi-WebScannner  
+#  Magru-WebScannner  
 
 **WebScannner** is an advanced web scanning tool that combines standard security techniques with AI to analyze and detect vulnerabilities on websites. Developed under **Margu Tools** by **Khusi-Docker** and **Phivault**, this scanner provides deep insights into web security.  
 
@@ -16,8 +16,8 @@
 ## Installation  
 
 ```bash
-git clone https://github.com/Khusi-docker/Khusi-WebScanner.git
-cd Khusi-WebScanner
+git clone https://github.com/Khusi-docker/Magru-WebScanner.git
+cd Magru-WebScanner
 ./install.sh
 ```
 
