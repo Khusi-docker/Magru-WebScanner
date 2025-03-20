@@ -15,6 +15,8 @@
 
 ## Installation  
 
+put your openroute api in api directory
+
 ```bash
 git clone https://github.com/Khusi-docker/Magru-WebScanner.git
 cd Magru-WebScanner
