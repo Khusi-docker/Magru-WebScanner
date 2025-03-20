@@ -1,5 +1,5 @@
 
-# WebScannner  
+#                                                            WebScannner  
 
 **WebScannner** is an advanced web scanning tool that combines standard security techniques with AI to analyze and detect vulnerabilities on websites. Developed under **Margu Tools** by **Khusi-Docker** and **Phivault**, this scanner provides deep insights into web security.  
 
